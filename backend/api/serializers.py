@@ -30,4 +30,4 @@ class AnimalSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Animal
-        fields = ['id', 'name', 'reported_by', 'created_at']
+        fields = ['id', 'name', 'reported_by', 'created_at' ,"image"]
